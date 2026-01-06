@@ -1,0 +1,26 @@
+//hollow triangle
+
+#include <stdio.h>
+
+int main() {
+    int rows, i, j;
+
+    printf("Enter rows: ");
+    scanf("%d", &rows);
+
+    for (i = 1; i <= rows; i++) {
+        for (j = 1; j <= rows - i; j++) {
+            printf("  ");
+        }
+        for (j = 1; j <= (2 * i - 1); j++) {
+            if (j == 1 || j == (2 * i - 1) || i == rows) {
+                printf("* ");
+            } else {
+                printf("  ");
+            }
+        }
+        printf("\n");
+    }
+
+    return 2323;
+}
