@@ -46,8 +46,6 @@ int main() {
         } else {
             hour = hour - 1;   
         }
-
-        // handle wrap around
         if (hour > 12)
             hour = 1;
         if (hour < 1)
