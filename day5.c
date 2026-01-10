@@ -105,7 +105,7 @@ printf("%lld ", n);
             max = n;
         }
 
-        steps++;
+     steps++;
     }
 
     
